@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+}
+.outer {
+  display: table;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.inner {
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  /* Whatever width you want */
+}
+
+div.fixed {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.class-container {
+  border: 1px solid rgb(156, 156, 156);
+  border-radius: 4px;
+  margin: 1em;
+  padding: 1em;
+}
+.badge {
+  display: inline-block;
+  padding: 0.25em 0.4em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  margin-right: 2px;
+}
+
+.badge-success {
+  color: #fff;
+  background-color: #383a44;
+}
